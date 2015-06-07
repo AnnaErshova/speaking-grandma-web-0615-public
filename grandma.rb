@@ -22,3 +22,9 @@ end
 
 speak_to_grandma("HELLO")
 
+# alternative solution with a ternary:
+
+# def speak_to_grandma(phrase)
+  # phrase.upcase == phrase ? "NO, NOT SINCE 1938!" : "HUH?! SPEAK UP, SONNY!"
+# end
+# speak_to_grandma("Hello")
